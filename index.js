@@ -5,7 +5,7 @@ sharp('dog.jpg')
   // resize image to be 50px wide
   .resize({width: 50})
 
-  // extract the upper quadrant of the image
+  // extract the upper left quadrant of the image
   .extract({
     left: 0, 
     top: 0, 
